@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "name": "Long-sleeved Cotton Top",
+    "price": "129,900",
+    "desc": "Long-sleeved top in soft cotton jersey with a round neckline and a small opening with a button at the back of the neck.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Jeggings",
+    "price": "199,900",
+    "desc": "CONSCIOUS CHOICE Jeggings in stretch denim made from a cotton blend with soft, adjustable elastication at the waist, a fake fly and fake front pockets.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby2.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Long-sleeved Cotton Top 2",
+    "price": "129,900",
+    "desc": "Long-sleeved top in soft cotton jersey with a round neckline and a small opening with a button at the back of the neck.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby3.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Legging Berbulu Dalam",
+    "price": "129,900",
+    "desc": "ADJUSTABLE WAIST Celana legging dari katun jersey organik tebal dengan bagian dalam berbulu lembut. Karet lembut yang dapat disesuaikan di pinggang agar pas dan nyaman di perut.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby4.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Cotton Flannel Shirt",
+    "price": "249,900",
+    "desc": "Shirt in soft cotton flannel with a collar, buttons down the front and open chest pockets. Gently dropped shoulders and long sleeves.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby5.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Denim Dungarees",
+    "price": "349,900",
+    "desc": "CONSCIOUS CHOICE Dungarees in washed denim. Adjustable straps with press-studs at the front, a press-stud at the sides and fake fly. Chest pocket, fake diagonal front pockets and real back pockets. Concealed press-studs at the crotch and along the legs (except in sizes 1-4Y).",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby6.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "2-piece Set",
+    "price": "349,900",
+    "desc": "Comfortable set with a shirt in a cotton weave and a pair of joggers in lightweight sweatshirt fabric. Shirt with a collar, buttons down the front, a yoke at the back, a rounded hem and long sleeves with buttoned cuffs. Joggers with covered elastication and a drawstring at the waist.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby7.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Lined Jeans",
+    "price": "279,900",
+    "desc": "LINED Jersey-lined jeans in soft, stretch denim with an adjustable, elasticated, drawstring waist, fake fly and fake front pockets.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby8.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "2-pack Lined Joggers",
+    "price": "429,900",
+    "desc": "LINED Casual-style joggers in cotton twill with a soft jersey lining. Easy pull-on, elasticated, drawstring waist, a fake fly and fake side pockets.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby9.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Sleep Bag",
+    "price": "429,900",
+    "desc": "Padded sleep bag in soft, patterned cotton jersey with a press-stud on one shoulder and zip at one side. Jersey lining. The sleep bag is designed for indoor use only. Tog 2.0.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby10.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "3-pack T-shirts",
+    "price": "249,900",
+    "desc": "T-shirts in supersoft cotton jersey with ribbing around the neckline and press-studs on one shoulder (except in sizes 2-4Y).",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby11.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "2-potong Set",
+    "price": "299,900",
+    "desc": "ADJUSTABLE WAIST Setelan kaus dari katun jersey lembut dan celana jogger dari denim pudar berbahan campuran katun. Kaus dengan bahu turun dan kancing tekan di satu bahu (kecuali ukuran 2-4th). Jogger dengan karet pinggang yang dapat disesuaikan dan saku depan imitasi.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby12.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "Wide Twill Trousers",
+    "price": 349900,
+    "desc": "rousers in cotton twill with a high waist, zip fly and button, front and back pockets and wide, straight legs.",
+    "category": "wanita",
+    "image": "../../public/assets/images/Produk_Wanita/produkwanita1.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Oversized Printed T-shirt",
+    "price": 249900,
+    "desc": "Oversized T-shirt in soft cotton jersey with a print motif on the front. Ribbed trim around the neckline and low dropped shoulders.",
+    "category": "wanita",
+    "image": "../../public/assets/images/Produk_Wanita/produkwanita2.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Printed Sweatshirt",
+    "price": 279900,
+    "desc": "Short top in sweatshirt fabric with a soft brushed inside and a print motif on the front. Round, rib-trimmed neckline, dropped shoulders and long sleeves. Ribbing at the cuffs and hem.",
+    "category": "wanita",
+    "image": "../../public/assets/images/Produk_Wanita/produkwanita3.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Oversized Blouse",
+    "price": 349900,
+    "desc": "Oversized blouse in woven fabric with a slight sheen. Collar, buttons down the front and a double-layered yoke with a box pleat at the back. Gently dropped shoulders and long sleeves with buttoned cuffs. Gently rounded hem.",
+    "category": "wanita",
+    "image": "../../public/assets/images/Produk_Wanita/produkwanita4.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Button-front Trousers",
+    "price": 349900,
+    "desc": "CONSCIOUS CHOICE Trousers in heavy jersey. High waist with concealed elastication, decorative buttons at the front and wide, straight legs.",
+    "category": "wanita",
+    "image": "../../public/assets/images/Produk_Wanita/produkwanita5.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Fine-knit Jumper",
+    "price": "199,900",
+    "desc": "Short jumper in a soft fine knit with a round, rib-trimmed neckline, long sleeves and ribbing at the cuffs and hem.",
+    "category": "divided",
+    "image": "../../public/assets/images/Produk_Divided/divided1.jpeg"
+  },
+  {
+    "id": 20,
+    "name": "Collared Rib-knit Top",
+    "price": "249,900",
+    "desc": "Short, fitted top in a rib-knit viscose blend with a collar, V-shaped opening at the front and long sleeves.",
+    "category": "divided",
+    "image": "../../public/assets/images/Produk_Divided/divided2.jpeg"
+  },
+  {
+    "id": 21,
+    "name": "Hole-knit Jumper",
+    "price": "249,900",
+    "desc": "Cropped jumper in a soft hole knit with a round neckline, low dropped shoulders and long, wide sleeves. Ribbed trim around the neckline, cuffs and hem.",
+    "category": "divided",
+    "image": "../../public/assets/images/Produk_Divided/divided3.jpeg"
+  },
+  {
+    "id": 22,
+    "name": "Jumper Rajut",
+    "price": "249,900",
+    "desc": "Jumper longgar dari rajutan lembut dengan garis leher bulat, bahu menurun, lengan panjang dan rib di sekeliling garis leher dan kelim.",
+    "category": "divided",
+    "image": "../../public/assets/images/Produk_Divided/divided4.jpeg"
+  },
+  {
+    "id": 23,
+    "name": "Knitted Jumper",
+    "price": "249,900",
+    "desc": "Loose-fitting jumper in a soft knit with a round neckline, dropped shoulders, long sleeves and ribbing around the neckline and hem.",
+    "category": "divided",
+    "image": "../../public/assets/images/Produk_Divided/divided5.jpeg"
+  },
+  {
+    "id": 24,
+    "name": "Knitted Jumper",
+    "price": "249,900",
+    "desc": "Loose-fitting jumper in a soft knit with a round neckline, dropped shoulders, long sleeves and ribbing around the neckline and hem.",
+    "category": "divided",
+    "image": "../../public/assets/images/Produk_Divided/divided6.jpeg"
+  },
+  {
+    "id": 25,
+    "name": "Fine-knit Jumper",
+    "price": "199,900",
+    "desc": "Short jumper in a soft fine knit with a round, rib-trimmed neckline, long sleeves and ribbing at the cuffs and hem.",
+    "category": "divided",
+    "image": "../../public/assets/images/Produk_Divided/divided7.jpeg"
+  },
+  {
+    "id": 26,
+    "name": "Jumper",
+    "price": "249,900",
+    "desc": "Jumper in a soft knit with a round, rib-trimmed neckline. Relaxed fit with low dropped shoulders, long sleeves and ribbing at the cuffs and hem.",
+    "category": "divided",
+    "image": "../../public/assets/images/Produk_Divided/divided8.jpeg"
+  },
+  {
+    "id": 27,
+    "name": "5-pack Jersey T-shirts",
+    "price": "429,900",
+    "desc": "CONSCIOUS CHOICE Classic T-shirts in soft cotton jersey with a round, rib-trimmed neckline. Some with print motifs on the front.",
+    "category": "anak-anak",
+    "image": "../../public/assets/images/Produk_Anak/anak1.jpeg"
+  },
+  {
+    "id": 28,
+    "name": "3-pack Long-sleeved Tops",
+    "price": "479,900",
+    "desc": "Long-sleeved tops in soft jersey with a round neckline. The cotton content of the tops is organic.",
+    "category": "anak-anak",
+    "image": "../../public/assets/images/Produk_Anak/anak2.jpeg"
+  },
+  {
+    "id": 29,
+    "name": "5-pack Printed Jersey Tops",
+    "price": "659,900",
+    "desc": "Short-sleeved tops in soft cotton jersey with a print motif. Longer and rounded at the back.",
+    "category": "anak-anak",
+    "image": "../../public/assets/images/Produk_Anak/anak3.jpeg"
+  },
+  {
+    "id": 30,
+    "name": "3-pack Long-sleeved Tops",
+    "price": "479,900",
+    "desc": "Long-sleeved tops in soft jersey with a round neckline. The cotton content of the tops is organic.",
+    "category": "anak-anak",
+    "image": "../../public/assets/images/Produk_Anak/anak5.jpeg"
+  },
+  {
+    "id": 31,
+    "name": "Printed T-shirt",
+    "price": "100,000",
+    "desc": "T-shirt in soft, printed cotton jersey.",
+    "category": "anak-anak",
+    "image": "../../public/assets/images/Produk_Anak/anak6.jpeg"
+  },
+  {
+    "id": 32,
+    "name": "Printed T-shirt",
+    "price": "100,000",
+    "desc": "T-shirt in soft, printed cotton jersey.",
+    "category": "anak-anak",
+    "image": "../../public/assets/images/Produk_Anak/anak7.jpeg"
+  },
+  {
+    "id": 33,
+    "name": "Printed T-shirt",
+    "price": "100,000",
+    "desc": "T-shirt in soft, printed cotton jersey.",
+    "category": "anak-anak",
+    "image": "../../public/assets/images/Produk_Anak/anak8.jpeg"
+  },
+  {
+    "id": 34,
+    "name": "Twill Overshirt",
+    "price": "659,900",
+    "desc": "Overshirt in twill with a collar, buttons down the front and a yoke at the back. Flap chest pockets with a button, and long sleeves with buttoned cuffs.",
+    "category": "pria",
+    "image": "../../public/assets/images/Produk_Pria/pria1.jpeg"
+  },
+  {
+    "id": 35,
+    "name": "Twill Overshirt",
+    "price": "699,900",
+    "desc": "Overshirt in twill with a collar, buttons down the front and a yoke at the back. Flap chest pockets with a button, and long sleeves with buttoned cuffs.",
+    "category": "pria",
+    "image": "../../public/assets/images/Produk_Pria/pria2.jpeg"
+  },
+  {
+    "id": 36,
+    "name": "Twill Overshirt",
+    "price": "659,900",
+    "desc": "Overshirt in twill with a collar, buttons down the front and a yoke at the back. Flap chest pockets with a button, and long sleeves with buttoned cuffs.",
+    "category": "pria",
+    "image": "../../public/assets/images/Produk_Pria/pria3.jpeg"
+  },
+  {
+    "id": 37,
+    "name": "Loose Fit Sweatshirt",
+    "price": "499,900",
+    "desc": "Top in soft cotton jersey. Loose fit with a stand-up collar, zip at the top, dropped shoulders, long sleeves and wide ribbing at the cuffs and hem.",
+    "category": "pria",
+    "image": "../../public/assets/images/Produk_Pria/pria4.jpeg"
+  },
+  {
+    "id": 38,
+    "name": "Oversized Fit Overshirt",
+    "price": "999,900",
+    "desc": "Oversized overshirt in a soft weave with embroidered motifs. Turn-down collar, press-studs down the front and a yoke at the back. Long sleeves with buttoned cuffs and a sleeve placket. Rounded hem.",
+    "category": "pria",
+    "image": "../../public/assets/images/Produk_Pria/pria5.jpeg"
+  },
+  {
+    "id": 39,
+    "name": "Oversized Fit Printed Hoodie",
+    "price": "799,900",
+    "desc": "Oversized hoodie in sweatshirt fabric made from a cotton blend with a soft brushed inside and print motifs. Double-layered wrapover hood, low dropped shoulders, long sleeves, a kangaroo pocket and ribbing at the cuffs and hem.",
+    "category": "pria",
+    "image": "../../public/assets/images/Produk_Pria/pria6.jpeg"
+  },
+  {
+    "id": 40,
+    "name": "Relaxed Fit Printed Hoodie",
+    "price": "499,900",
+    "desc": "Hoodie in sweatshirt fabric made from a cotton blend with a print motif. Relaxed fit with a double-layered, drawstring hood, long sleeves, kangaroo pocket and ribbing at the cuffs and hem. Soft brushed inside.",
+    "category": "pria",
+    "image": "../../public/assets/images/Produk_Pria/pria7.jpeg"
+  },
+  {
+    "id": 41,
+    "name": "Regular Fit Hoodie",
+    "price": "499,900",
+    "desc": "Long-sleeved hoodie in soft sweatshirt fabric with a kangaroo pocket, double-layered drawstring hood with a wrapover front, and ribbing at the cuffs and hem.",
+    "category": "pria",
+    "image": "../../public/assets/images/Produk_Pria/pria8.jpeg"
+  }
+]

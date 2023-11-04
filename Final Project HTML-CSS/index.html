@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            backgroundImage: {
+              content1: "url('./assets/images/[2]_Content/Content_1.jpeg')",
+              content2: "url('./assets/images/[2]_Content/Content_2.jpeg')",
+              content3: "url('./assets/images/[2]_Content/Content_4.jpeg')",
+              content4: "url('./assets/images/[2]_Content/Content_5.jpeg')",
+              content5: "url('./assets/images/[2]_Content/Content_6.jpeg')",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Shop Online Fashion In Indonesia | H&M Indonesia</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="flex justify-between items-center px-6 py-8 w-full h-[50px]">
+      <!-- Right Menu -->
+      <div class="flex gap-3">
+        <span class="text-xs hover:underline"
+          ><a href="#">Customer Service</a>
+        </span>
+        <span class="text-xs hover:underline"
+          ><a href="#">Mencari Lokasi Toko</a>
+        </span>
+        <span class="text-xs"
+          ><a href="#" class="hover:underline"> Unduh Android</a> /
+          <a href="#" class="hover:underline">Unduh iOS</a>
+        </span>
+      </div>
+      <!-- Center Icon -->
+      <div class="flex gap-6">
+        <a href="./index.html">
+          <img
+            src="./assets/images/[1]_Header/H&M_Icon.svg"
+            alt="H&M Icon"
+            class="w-16 h-16"
+          />
+        </a>
+      </div>
+      <!-- Left Menu -->
+      <div class="flex gap-3 justify-center items-center">
+        <!-- Sign in Area -->
+        <a
+          href="./public/login.html"
+          class="text-xs hover:underline flex gap-1 justify-center items-center"
+        >
+          <img
+            src="./assets/images/[1]_Header/Person_Icon.png"
+            alt="Love Icon"
+            class="w-[18px] h-[18px]"
+          />Masuk Akun
+        </a>
+        <!-- Language Area -->
+        <a
+          href="#"
+          class="text-xs hover:underline flex justify-center items-center"
+        >
+          Indonesian
+          <span>
+            <svg
+              class="-mr-1 h-5 w-5 text-gray-400"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </a>
+        <!-- Favorites Area -->
+        <a
+          href="#"
+          class="text-xs hover:underline flex gap-1 justify-center items-center"
+        >
+          <img
+            src="./assets/images/[1]_Header/Heart_Icon.png"
+            alt="Love Icon"
+            class="w-[18px] h-[18px]"
+          />Favorit
+        </a>
+        <!-- Checkout Area -->
+        <a
+          href="#"
+          class="text-xs hover:underline flex gap-1 justify-center items-center"
+        >
+          <img
+            src="./assets/images/[1]_Header/ShoppingBag_icon.png"
+            alt="Love Icon"
+            class="w-[18px] h-[18px]"
+          />Tas Belanja (0)
+        </a>
+      </div>
+    </header>
+    <!-- Header End -->
+    <div class="container">
+      <!-- Navbar Start -->
+      <nav class="flex justify-center items-center py-9">
+        <!-- Navbar Area -->
+        <div class="flex gap-10">
+          <!-- Kategori Ladies -->
+          <a href="#" class="text-base hover:underline"> Wanita </a>
+          <!-- Kategori Men -->
+          <a href="#" class="text-base hover:underline"> Pria </a>
+          <!-- Kategori Divided -->
+          <a href="#" class="text-base hover:underline"> Divided </a>
+          <!-- Kategori Baby -->
+          <a href="#" class="text-base hover:underline"> Baby </a>
+          <!-- Kategori Kids -->
+          <a href="#" class="text-base hover:underline"> Anak-anak </a>
+          <!-- Kategori Sport -->
+          <a href="#" class="text-base hover:underline"> Sport </a>
+          <!-- Kategori Sale -->
+          <a href="#" class="text-base hover:underline"> Sale </a>
+          <!-- Search Area -->
+          <div class="border-solid border-black border-b-2">
+            <form
+              action="#"
+              method="post"
+              class="flex justify-center items-center gap-1"
+            >
+              <img
+                src="./assets/images/[1]_Header/Search_Icon.png"
+                alt="Search Icon"
+                class="w-5 h-5"
+              />
+              <input
+                type="search"
+                name=""
+                id=""
+                placeholder="Cari produk..."
+                class="focus:outline-none"
+              />
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Section 1 Start -->
+      <section class="flex justify-center items-center gap-14">
+        <div>
+          <p class="text-xs">Cari lokasi H&M di dekat Anda</p>
+        </div>
+        <div class="w-80">
+          <p class="text-xs text-center">
+            Daftar dan dapatkan diskon 20% untuk pembelian pertama. Pakai Kode:
+            NEW20
+          </p>
+        </div>
+        <div>
+          <p class="text-xs">Belanja Online e-Voucher kami</p>
+        </div>
+      </section>
+      <!-- Section 1 End -->
+
+      <!-- Section 2 Start -->
+      <section class="flex flex-col justify-center items-center pt-10">
+        <!-- Main Content 1 -->
+        <div
+          class="bg-content1 bg-cover w-[53.75rem] h-[36.25rem] flex justify-center items-center gap-3"
+        >
+          <div class="mt-[16rem]">
+            <a href="#" class="bg-slate-100 border p-2">Wanita</a>
+          </div>
+          <div class="mt-[16rem]">
+            <a href="#" class="bg-slate-100 border p-2">Sport Wanita</a>
+          </div>
+          <div class="mt-[16rem]">
+            <a href="#" class="bg-slate-100 border p-2">Pria</a>
+          </div>
+          <div class="mt-[16rem]">
+            <a href="#" class="bg-slate-100 border p-2">Sport Pria</a>
+          </div>
+          <div class="mt-[16rem]">
+            <a href="#" class="bg-slate-100 border p-2">Divided</a>
+          </div>
+          <div class="mt-[16rem]">
+            <a href="#" class="bg-slate-100 border p-2">Anak-anak</a>
+          </div>
+          <div class="mt-[16rem]">
+            <a href="#" class="bg-slate-100 border p-2">Bayi</a>
+          </div>
+        </div>
+
+        <!-- Main Content 2 -->
+        <div
+          class="bg-content2 bg-cover w-[53.75rem] h-[36.25rem] flex justify-center items-center gap-3 mt-10"
+        >
+          <div class="mt-[28rem]">
+            <a href="#" class="bg-slate-100 border p-2">Belanja sekarang</a>
+          </div>
+        </div>
+
+        <!-- Main Content 3 -->
+        <div class="w-[53.75rem] bg-slate-100 my-9">
+          <h1 class="flex justify-center items-center pt-2">
+            Trending Categories
+          </h1>
+          <div class="flex justify-center items-center gap-3 mt-2">
+            <div class="flex gap-4 pb-3">
+              <div>
+                <!-- Item 1 -->
+                <a href="#" class="flex flex-col justify-center items-center">
+                  <img
+                    src="./assets/images/[2]_Content/Content_3_Carosel_1.jpeg"
+                    alt="Kategori 1"
+                    class="w-20 h-24 rounded-full bg-neutral-200"
+                  />
+                  <p class="text-slate-600 text-xs">Ladies</p>
+                  <p class="text-sm">Dresses</p>
+                </a>
+              </div>
+              <div>
+                <!-- Item 2 -->
+                <a href="#" class="flex flex-col justify-center items-center">
+                  <img
+                    src="./assets/images/[2]_Content/Content_3_Carosel_2.jpeg"
+                    alt="Kategori 2"
+                    class="w-20 h-24 rounded-full bg-neutral-200"
+                  />
+                  <p class="text-slate-600 text-xs">Best men</p>
+                  <p class="text-sm">Trendy</p>
+                </a>
+              </div>
+              <div class="flex justify-center items-center w-36">
+                <!-- Item 3 -->
+                <a href="#" class="flex flex-col justify-center items-center">
+                  <img
+                    src="./assets/images/[2]_Content/Content_3_Carosel_3.jpeg"
+                    alt="Kategori 3"
+                    class="w-20 h-24 rounded-full bg-neutral-200"
+                  />
+                  <p
+                    class="text-slate-600 text-xs flex justify-center items-center"
+                  >
+                    Divided
+                  </p>
+                  <p class="text-sm">From Rp 99.000</p>
+                </a>
+              </div>
+              <div class="w-24">
+                <!-- Item 4 -->
+                <a href="#" class="flex flex-col justify-center items-center">
+                  <img
+                    src="./assets/images/[2]_Content/Content_3_Carosel_4.jpeg"
+                    alt="Kategori 4"
+                    class="w-20 h-24 rounded-full bg-neutral-200"
+                  />
+                  <p class="text-slate-600 text-xs">Music</p>
+                  <p class="text-sm">Festival Ready</p>
+                </a>
+              </div>
+              <div class="#">
+                <!-- Item 5 -->
+                <a href="" class="flex flex-col justify-center items-center">
+                  <img
+                    src="./assets/images/[2]_Content/Content_3_Carosel_5.jpeg"
+                    alt="Kategori 5"
+                    class="w-20 h-24 rounded-full bg-neutral-200"
+                  />
+                  <p class="text-slate-600 text-xs">Divided</p>
+                  <p class="text-sm">90 style</p>
+                </a>
+              </div>
+              <div class="w-36">
+                <!-- Item 6 -->
+                <a href="#" class="flex flex-col justify-center items-center">
+                  <img
+                    src="./assets/images/[2]_Content/Content_3_Carosel_6.jpeg"
+                    alt="Kategori 6"
+                    class="w-20 h-24 rounded-full bg-neutral-200"
+                  />
+                  <p class="text-slate-600 text-xs">Kids</p>
+                  <p class="text-sm">From Rp 249,900</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Content 4 -->
+        <div
+          class="bg-content3 bg-cover w-[53.75rem] h-[36.25rem] flex justify-center items-center gap-3 mt-2"
+        >
+          <div class="mt-[28rem]">
+            <a
+              href="#"
+              class="bg-slate-900 text-white border px-5 py-[0.375rem] flex justify-center items-center"
+              >Belanja sekarang</a
+            >
+          </div>
+        </div>
+
+        <!-- Main Content 5 -->
+        <div
+          class="bg-content4 bg-cover w-[53.75rem] h-[36.25rem] flex justify-center items-center gap-3 mt-9"
+        >
+          <div class="mt-[30rem] flex flex-row gap-5">
+            <a
+              href="#"
+              class="bg-slate-900 text-white border px-5 py-[0.375rem] flex justify-center items-center"
+              >Wanita</a
+            >
+            <a
+              href="#"
+              class="bg-slate-900 text-white border px-5 py-[0.375rem] flex justify-center items-center"
+              >Divided</a
+            >
+          </div>
+        </div>
+
+        <!-- Main Content 6 -->
+        <div class="w-[53.75rem] bg-slate-100 my-9">
+          <h1 class="flex justify-center items-center pt-2 text-2xl">
+            Belanja dengan mudah!
+          </h1>
+          <div
+            class="flex justify-center items-center gap-3 mt-2 w-[53.75rem] h-[36.25rem] bg-content5 bg-cover"
+          >
+            <div class="mt-[16rem] ml-[23rem] flex flex-row gap-5">
+              <a
+                href="#"
+                class="bg-slate-900 text-white border px-5 py-[0.5rem] flex justify-center items-center"
+                >Gabung sekarang</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section 2 End -->
+    </div>
+    <!-- Footer Start -->
+    <div class="bg-gray-300 w-full h-[40rem]">
+      <div class="flex justify-center items-center gap-52">
+        <div class="flex flex-col gap-3 mt-16">
+          <h1 class="mb-2 font-medium">SHOP</h1>
+          <a href="#" class="text-base hover:underline">Wanita</a>
+          <a href="#" class="text-base hover:underline">Pria</a>
+          <a href="#" class="text-base hover:underline">Divided</a>
+          <a href="#" class="text-base hover:underline">Baby</a>
+          <a href="#" class="text-base hover:underline">Anak-anak</a>
+          <a href="#" class="text-base hover:underline">Sport</a>
+          <a href="#" class="text-base hover:underline">Sale</a>
+        </div>
+        <div class="flex flex-col gap-3 mt-7">
+          <h1 class="mb-2 font-medium">INFORMASI PERUSAHAAN</h1>
+          <a href="#" class="text-base hover:underline">Berkarier di H&M</a>
+          <a href="#" class="text-base hover:underline">Mengenai H&M</a>
+          <a href="#" class="text-base hover:underline">Sustainability</a>
+          <a href="#" class="text-base hover:underline">Pres</a>
+          <a href="#" class="text-base hover:underline">Hubungan Investor</a>
+          <a href="#" class="text-base hover:underline"
+            >Tata Kelola Perusahaan</a
+          >
+        </div>
+        <div class="flex flex-col gap-3">
+          <h1 class="mb-2 font-medium">BANTUAN</h1>
+          <a href="#" class="text-base hover:underline">Customer Service</a>
+          <a href="#" class="text-base hover:underline">My H&M</a>
+          <a href="#" class="text-base hover:underline">Lokasi Toko</a>
+          <a href="#" class="text-base hover:underline">Kebijakan Privasi</a>
+          <a href="#" class="text-base hover:underline">Kontak</a>
+        </div>
+      </div>
+      <div class="flex flex-col gap-2 mt-7">
+        <h1 class="flex justify-center items-center">
+          <a href="index.html" class="flex justify-center items-center"
+            >HENNES
+            <img
+              src="./assets/images/[3]_Footer/Logo.png"
+              alt="Logo"
+              class="w-16 h-16"
+            />
+            MAURITZ
+          </a>
+        </h1>
+        <div class="gap-2 mx-[18rem] mt-2 w-[55rem]">
+          <p class="text-center">
+            Konsep bisnis H&M menawarkan fashion dan kualitas dengan harga
+            terbaik dan cara yang berkelanjutan. H&M sejak didirikan pada tahun
+            1947 tumbuh menjadi salah satu perusahaan fesyen terkemuka di dunia.
+            Seluruh isi dan informasi dari situs ini dilindungi hak cipta dan
+            merupakan milik H&M Hennes and Mauritz AB. Layanan Pengaduan
+            Konsumen, Direktorat Jenderal Perlindungan Konsumen dan Tertib
+            Niaga, Kementerian Perdagangan Republik Indonesia, 0853-1111-1010
+            (WhatsApp)
+          </p>
+        </div>
+        <div class="flex justify-center items-center gap-7 mt-4">
+          <!-- Icon Facebook -->
+          <a href="#">
+            <img
+              src="./assets/images/[3]_Footer/facebook.png"
+              alt="facebook"
+              class="w-6 h-6"
+            />
+          </a>
+          <!-- Icon Twitter -->
+          <a href="#">
+            <img
+              src="./assets/images/[3]_Footer/twitter.png"
+              alt="twitter"
+              class="w-6 h-6"
+            />
+          </a>
+          <!-- Icon Instagram -->
+          <a href="#">
+            <img
+              alt="instagram"
+              src="./assets/images/[3]_Footer/instagram.png"
+              class="w-6 h-6"
+            />
+          </a>
+          <!-- Icon Youtube -->
+          <a href="#">
+            <img
+              src="./assets/images/[3]_Footer/youtube.png"
+              alt="youtube"
+              class="w-6 h-6"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="flex justify-center items-center mt-4">
+        <p>Indonesia | Rp</p>
+      </div>
+    </div>
+    <!-- Footer End -->
+  </body>
+</html>

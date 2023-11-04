@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Long-sleeved Cotton Top",
+    "price": "129,900",
+    "desc": "Long-sleeved top in soft cotton jersey with a round neckline and a small opening with a button at the back of the neck.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Jeggings",
+    "price": "199,900",
+    "desc": "CONSCIOUS CHOICE Jeggings in stretch denim made from a cotton blend with soft, adjustable elastication at the waist, a fake fly and fake front pockets.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby2.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Long-sleeved Cotton Top 2",
+    "price": "129,900",
+    "desc": "Long-sleeved top in soft cotton jersey with a round neckline and a small opening with a button at the back of the neck.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby3.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Legging Berbulu Dalam",
+    "price": "129,900",
+    "desc": "ADJUSTABLE WAIST Celana legging dari katun jersey organik tebal dengan bagian dalam berbulu lembut. Karet lembut yang dapat disesuaikan di pinggang agar pas dan nyaman di perut.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby4.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Cotton Flannel Shirt",
+    "price": "249,900",
+    "desc": "Shirt in soft cotton flannel with a collar, buttons down the front and open chest pockets. Gently dropped shoulders and long sleeves.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby5.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Denim Dungarees",
+    "price": "349,900",
+    "desc": "CONSCIOUS CHOICE Dungarees in washed denim. Adjustable straps with press-studs at the front, a press-stud at the sides and fake fly. Chest pocket, fake diagonal front pockets and real back pockets. Concealed press-studs at the crotch and along the legs (except in sizes 1-4Y).",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby6.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "2-piece Set",
+    "price": "349,900",
+    "desc": "Comfortable set with a shirt in a cotton weave and a pair of joggers in lightweight sweatshirt fabric. Shirt with a collar, buttons down the front, a yoke at the back, a rounded hem and long sleeves with buttoned cuffs. Joggers with covered elastication and a drawstring at the waist.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby7.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Lined Jeans",
+    "price": "279,900",
+    "desc": "LINED Jersey-lined jeans in soft, stretch denim with an adjustable, elasticated, drawstring waist, fake fly and fake front pockets.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby8.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "2-pack Lined Joggers",
+    "price": "429,900",
+    "desc": "LINED Casual-style joggers in cotton twill with a soft jersey lining. Easy pull-on, elasticated, drawstring waist, a fake fly and fake side pockets.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby9.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Sleep Bag",
+    "price": "429,900",
+    "desc": "Padded sleep bag in soft, patterned cotton jersey with a press-stud on one shoulder and zip at one side. Jersey lining. The sleep bag is designed for indoor use only. Tog 2.0.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby10.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "3-pack T-shirts",
+    "price": "249,900",
+    "desc": "T-shirts in supersoft cotton jersey with ribbing around the neckline and press-studs on one shoulder (except in sizes 2-4Y).",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby11.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "2-potong Set",
+    "price": "299,900",
+    "desc": "ADJUSTABLE WAIST Setelan kaus dari katun jersey lembut dan celana jogger dari denim pudar berbahan campuran katun. Kaus dengan bahu turun dan kancing tekan di satu bahu (kecuali ukuran 2-4th). Jogger dengan karet pinggang yang dapat disesuaikan dan saku depan imitasi.",
+    "category": "baby",
+    "image": "../../public/assets/images/Produk_Bayi/baby12.jpeg"
+  }
+]
