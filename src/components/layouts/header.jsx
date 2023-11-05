@@ -1,6 +1,6 @@
 import CenterIcon from "../fragments/centerIcon";
-import LeftMenu from "../fragments/LeftMenu";
-import RightMenu from "../fragments/RightMenu";
+import LeftMenu from "../fragments/leftMenu";
+import RightMenu from "../fragments/rightMenu";
 
 const Header = () => {
   return (

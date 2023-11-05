@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Card from "../components/fragments/Card";
+import Card from "../components/fragments/card";
 import Header from "../components/layouts/header";
-import Navbar from "../components/layouts/Navbar";
+import Navbar from "../components/layouts/navbar";
 import { useLocation } from "react-router-dom";
 
 const Products = () => {

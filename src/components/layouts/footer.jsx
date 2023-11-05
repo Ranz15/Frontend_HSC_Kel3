@@ -1,6 +1,6 @@
-import FooterShop from "../fragments/FooterShop";
-import FooterCompanyInfo from "../fragments/FooterCompanyInfo";
-import FooterHelp from "../fragments/FooterHelp";
+import FooterShop from "../fragments/footerShop";
+import FooterCompanyInfo from "../fragments/footerCompanyInfo";
+import FooterHelp from "../fragments/footerHelp";
 
 const Footer = () => {
   return (

@@ -1,8 +1,8 @@
-import Footer from "../components/layouts/Footer";
-import Navbar from "../components/layouts/Navbar";
-import Section1 from "../components/layouts/Section1";
-import Section2 from "../components/layouts/Section2";
-import Header from "../components/layouts/Header";
+import Footer from "../components/layouts/footer";
+import Navbar from "../components/layouts/navbar";
+import Section1 from "../components/layouts/section1";
+import Section2 from "../components/layouts/section2";
+import Header from "../components/layouts/header";
 
 const LandingPage = () => {
   return (
