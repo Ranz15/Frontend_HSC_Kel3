@@ -1,24 +1,23 @@
-const FooterShop = () => {
+const FooterHelp = ({ className }) => {
   return (
-    <div className="flex flex-col gap-3 mt-16 text-sm">
-      <h1 className="mb-2 font-medium">SHOP</h1>
+    <div className={className}>
       <a href="#" className="hover:underline">
-        Wanita
+        Customer Service
       </a>
       <a href="#" className="hover:underline">
-        Pria
+        My H&M
       </a>
       <a href="#" className="hover:underline">
-        Divided
+        Lokasi Toko
       </a>
       <a href="#" className="hover:underline">
-        Baby
+        Kebijakan Privasi
       </a>
       <a href="#" className="hover:underline">
-        Anak-anak
+        Kontak
       </a>
     </div>
   );
 };
 
-export default FooterShop;
+export default FooterHelp;

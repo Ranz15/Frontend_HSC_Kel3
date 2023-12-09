@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Input from "../elements/input/input";
+import Input from "../../elements/input/input";
 
 const LoginForm = () => {
   return (

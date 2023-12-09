@@ -1,17 +1,14 @@
-import Footer from "../components/layouts/Footer";
-import Navbar from "../components/layouts/Navbar";
-import Section1 from "../components/layouts/Section1";
-import Section2 from "../components/layouts/Section2";
+import Footer from "../components/layouts/footer";
+import Header from "../components/layouts/header";
+import Section from "../components/layouts/section";
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="">
       <Header />
-      <div className="container">
-        <Navbar />
-        <Section1 />
-        <Section2 />
-      </div>
+      <Section>
+        <Section.Image src="./public/assets/images/Men/men1.jpg" />
+      </Section>
       <Footer />
     </div>
   );

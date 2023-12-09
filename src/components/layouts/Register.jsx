@@ -1,10 +1,10 @@
-import PageDirectory from "../fragments/pageDirectory";
+import BreadCrumb from "../fragments/breadCrumb";
 import RegisterTitle from "../elements/RegisterElements/registerTitle";
-import RegisterForm from "../fragments/registerForm";
+import RegisterForm from "../fragments/Auth/registerForm";
 const Register = () => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <PageDirectory />
+      <BreadCrumb />
       <RegisterTitle />
       <RegisterForm />
     </div>

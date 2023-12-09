@@ -1,24 +1,26 @@
-const FooterHelp = () => {
+import { useState } from "react";
+
+const FooterShop = ({ className }) => {
+  const [isActive, setIsActive] = useState(false);
   return (
-    <div className="flex flex-col gap-3 mt-16 text-sm">
-      <h1 className="mb-2 font-medium">BANTUAN</h1>
+    <div className={className}>
       <a href="#" className="hover:underline">
-        Customer Service
+        Wanita
       </a>
       <a href="#" className="hover:underline">
-        My H&M
+        Pria
       </a>
       <a href="#" className="hover:underline">
-        Lokasi Toko
+        Divided
       </a>
       <a href="#" className="hover:underline">
-        Kebijakan Privasi
+        Baby
       </a>
       <a href="#" className="hover:underline">
-        Kontak
+        Anak-anak
       </a>
     </div>
   );
 };
 
-export default FooterHelp;
+export default FooterShop;
