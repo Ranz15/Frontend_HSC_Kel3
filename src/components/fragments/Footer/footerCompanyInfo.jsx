@@ -1,7 +1,6 @@
-const FooterCompanyInfo = () => {
+const FooterCompanyInfo = ({ className }) => {
   return (
-    <div className="flex flex-col gap-3 mt-16 text-sm">
-      <h1 className="mb-2 font-medium">INFORMASI PERUSAHAAN</h1>
+    <div className={className}>
       <a href="#" className="hover:underline">
         Berkarier di H&M
       </a>

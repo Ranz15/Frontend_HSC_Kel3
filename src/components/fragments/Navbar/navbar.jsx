@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ className }) => {
   // menggunakan navigate
   const navigate = useNavigate();
   // agar ada event saat user mengklik navigate, cth : wanita(bg-red)
@@ -30,8 +30,8 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="flex justify-center items-center py-3">
-      <div className="flex gap-10">
+    <nav className={className}>
+      <div className="flex flex-col gap-y-6">
         {dataNavbar.map((item) => {
           console.log(`${setActiveTab}`);
           return (
@@ -53,26 +53,24 @@ const Navbar = () => {
           {" "}
           Semua Produk{" "}
         </Link>
-        <div className="border-solid border-black border-b-2">
-          <form
-            action="#"
-            method="post"
-            className="flex justify-center items-center gap-1"
-          >
-            <img
-              src="./assets/images/[1]_Header/Search_Icon.png"
-              alt="Search Icon"
-              className="w-5 h-5"
-            />
-            <input
-              type="search"
-              name=""
-              id=""
-              placeholder="Cari produk..."
-              className="focus:outline-none"
-            />
-          </form>
-        </div>
+        <form
+          action="#"
+          method="post"
+          className="hidden justify-center items-center gap-1"
+        >
+          <img
+            src="./assets/images/[1]_Header/Search_Icon.png"
+            alt="Search Icon"
+            className="w-5 h-5"
+          />
+          <input
+            type="search"
+            name=""
+            id=""
+            placeholder="Cari produk..."
+            className="focus:outline-none"
+          />
+        </form>
       </div>
     </nav>
   );

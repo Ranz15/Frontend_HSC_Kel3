@@ -1,5 +1,5 @@
-import Button from "../elements/button/button";
-import Input from "../elements/input/input";
+import Button from "../../elements/button/button";
+import Input from "../../elements/input/input";
 
 const InputForm = () => {
   return (

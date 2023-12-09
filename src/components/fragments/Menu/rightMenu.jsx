@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const LeftMenu = () => {
+const RightMenu = () => {
   return (
-    <div className="flex gap-3 justify-center items-center">
+    <div className=" flex flex-row ml-auto">
       <Link
         to="/login"
         className="text-xs hover:underline flex gap-1 justify-center items-center"
@@ -12,7 +12,7 @@ const LeftMenu = () => {
           alt="Love Icon"
           className="w-[18px] h-[18px]"
         />
-        Masuk Akun
+        <span className="hidden">Masuk Akun</span>
       </Link>
       <a
         href="#"
@@ -34,19 +34,8 @@ const LeftMenu = () => {
           </svg>
         </span>
       </a>
-      <a
-        href="#"
-        className="text-xs hover:underline flex gap-1 justify-center items-center"
-      >
-        <img
-          src="../assets/images/[1]_Header/Heart_Icon.png"
-          alt="Love Icon"
-          className="w-[18px] h-[18px]"
-        />
-        Favorit
-      </a>
-      <a
-        href="#"
+      <Link
+        to=""
         className="text-xs hover:underline flex gap-1 justify-center items-center"
       >
         <img
@@ -54,10 +43,10 @@ const LeftMenu = () => {
           alt="Love Icon"
           className="w-[18px] h-[18px]"
         />
-        Tas Belanja (0)
-      </a>
+        <span className="hidden">Tas Belanja (0)</span>
+      </Link>
     </div>
   );
 };
 
-export default LeftMenu;
+export default RightMenu;

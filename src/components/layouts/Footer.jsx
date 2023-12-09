@@ -1,29 +1,75 @@
-import FooterShop from "../fragments/FooterShop";
-import FooterCompanyInfo from "../fragments/FooterCompanyInfo";
-import FooterHelp from "../fragments/FooterHelp";
+import FooterShop from "../fragments/Footer/footerShop";
+import FooterCompanyInfo from "../fragments/Footer/footerCompanyInfo";
+import FooterHelp from "../fragments/Footer/footerHelp";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const [isActive, setIsActive] = useState(false);
   return (
-    <footer className="bg-gray-300 w-full h-auto text-sm">
-      <div className="flex justify-center gap-52">
-        <FooterShop />
-        <FooterCompanyInfo />
-        <FooterHelp />
+    <footer className="bg-[#e4e4e4] w-full max-h-full text-sm">
+      <div className="w-full flex flex-col lg:flex-row justify-between lg:gap-x-16 px-4 py-10">
+        <div className="flex flex-col justify-between py-3 px-5">
+          <span
+            className="font-bold hover:cursor-pointer lg:hover:cursor-text "
+            onClick={() => setIsActive(!isActive)}
+          >
+            SHOP
+          </span>
+          {/* Tampilan Mobile */}
+          <FooterShop
+            className={
+              isActive ? "flex flex-col gap-5 mt-5 lg:hidden " : "hidden"
+            }
+          />
+          {/* Tampilan Dekstop */}
+          <FooterShop className="hidden justify-start lg:flex lg:flex-col" />
+        </div>
+        <div className="flex flex-col justify-between py-3 px-5  ">
+          <span
+            className="font-bold lg:hover:cursor-text"
+            onClick={() => setIsActive(!isActive)}
+          >
+            INFORMASI PERUSAHAAN
+          </span>
+          {/*Tampilan Mobile*/}
+          <FooterCompanyInfo
+            className={
+              isActive ? "flex flex-col gap-5 mt-5 text-sm lg:hidden" : "hidden"
+            }
+          />
+          {/*Tampilan Deskstop*/}
+          <FooterCompanyInfo className="hidden justify-start lg:flex lg:flex-col" />
+        </div>
+        <div className="flex flex-col justify-between py-3 px-5 ">
+          <span
+            className="font-bold lg:hover:cursor-text"
+            onClick={() => setIsActive(!isActive)}
+          >
+            BANTUAN
+          </span>
+          {/*Tampilan Mobile*/}
+          <FooterHelp
+            className={
+              isActive ? "flex flex-col gap-5 mt-5 text-sm lg:hidden" : "hidden"
+            }
+          />
+          {/*Tampilan Dekstop*/}
+          <FooterHelp className="hidden justify-start lg:flex lg:flex-col" />
+        </div>
       </div>
-      <div className="flex flex-col gap-2 mt-7">
-        <h1 className="flex justify-center items-center">
-          <a href="index.html" className="flex justify-center items-center">
-            HENNES
-            <img
-              src="./assets/images/[3]_Footer/Logo.png"
-              alt="Logo"
-              className="w-16 h-16"
-            />
-            MAURITZ
-          </a>
-        </h1>
-        <div className="gap-2 mx-[18rem] mt-2 w-[55rem]">
-          <p className="text-center">
+      <div className="max-w-full flex flex-col items-center p-10">
+        <Link to={"/"} className="flex justify-center items-center">
+          <span>HENNES</span>
+          <img
+            src="./assets/images/[3]_Footer/Logo.png"
+            alt="Logo"
+            className="w-16"
+          />
+          <span>MAURITZ</span>
+        </Link>
+        <div className="max-w-md mx-auto md:max-w-lg lg:max-w-lg xl:max-w-xl">
+          <p className="text-justify text-xs md:text-xs md:break-normal  xl:text-center  ">
             Konsep bisnis H&M menawarkan fashion dan kualitas dengan harga
             terbaik dan cara yang berkelanjutan. H&M sejak didirikan pada tahun
             1947 tumbuh menjadi salah satu perusahaan fesyen terkemuka di dunia.

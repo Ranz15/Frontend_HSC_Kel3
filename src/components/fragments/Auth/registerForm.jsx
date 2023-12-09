@@ -1,6 +1,6 @@
-import Button from "../elements/button/buttonRegister";
-import Input from "../elements/input/input";
-import RegisterAgreement from "../elements/RegisterElements/registerAgreement";
+import Button from "../../elements/button/buttonRegister";
+import Input from "../../elements/input/input";
+import RegisterAgreement from "../../elements/RegisterElements/registerAgreement";
 
 const InputForm = () => {
   return (
