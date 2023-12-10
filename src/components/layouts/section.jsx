@@ -1,6 +1,6 @@
-const Image = ({ src, alt }) => {
+const Image = ({ src, alt, onClick }) => {
   return (
-    <div>
+    <div className="mx-5 my-2 sm:w-2/3" onClick={onClick}>
       <img src={src} alt={alt} />
     </div>
   );

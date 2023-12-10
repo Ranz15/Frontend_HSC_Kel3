@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Card from "../components/fragments/Card";
 import Header from "../components/layouts/Header";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import Footer from "../components/layouts/footer";
+import Navbar from "../components/fragments/Navbar/navbar";
 
 const Products = () => {
   const [dataProduct, setDataProduct] = useState([]);
@@ -40,6 +42,7 @@ const Products = () => {
           imgLink={item.image}
           title={item.name}
           price={item.price}
+          onClick={() => (window.location.href = "/products-detail")}
         />
       ));
   };
@@ -47,10 +50,11 @@ const Products = () => {
   return (
     <>
       <Header />
-      <div className="container mx-20">
-        <div className="grid grid-cols-4 gap-5 px-9">{renderProducts()}</div>
+      <Navbar className={"flex flex-row"} />
+      <div className="mx-auto pt-20 pb-20">
+        <div className="flex flex-wrap gap-5 px-9">{renderProducts()}</div>
         {dataProduct.length > ITEMS_PER_PAGE && (
-          <div className="flex justify-center mt-4">
+          <div className="">
             {Array.from(
               { length: Math.ceil(dataProduct.length / ITEMS_PER_PAGE) },
               (_, index) => (
@@ -70,6 +74,7 @@ const Products = () => {
           </div>
         )}
       </div>
+      <Footer />
     </>
   );
 };
