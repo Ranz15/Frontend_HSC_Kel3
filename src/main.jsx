@@ -7,6 +7,7 @@ import LandingPage from "./pages/landingPage.jsx";
 import Products from "./pages/products.jsx";
 import RegisterPage from "./pages/RegisterPage.jsx";
 import DetailProducts from "./pages/detailProducts.jsx";
+import CreateAdmin from "./pages/admin-page.jsx";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "products-detail",
     element: <DetailProducts />,
+  },
+  {
+    path: "admin",
+    element: <CreateAdmin />,
   },
 ]);
 

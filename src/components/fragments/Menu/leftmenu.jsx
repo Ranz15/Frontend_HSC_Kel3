@@ -4,7 +4,7 @@ import Navbar from "../Navbar/navbar";
 const LeftMenu = () => {
   return (
     <div className="absolute flex flex-col w-4/5 h-screen px-5 py-20 gap-y-14 bg-[#faf9f8] top-0 left-0 overflow-y-scroll">
-      <Navbar className={""} />
+      <Navbar className={"flex flex-col gap-y-6"} />
       <LeftMenuList className="text-xs hover:underline" href="#">
         Customer Service
       </LeftMenuList>

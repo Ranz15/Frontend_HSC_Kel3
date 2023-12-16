@@ -30,8 +30,8 @@ const Navbar = ({ className }) => {
   ];
 
   return (
-    <nav className={className}>
-      <div className="flex flex-col gap-y-6">
+    <nav>
+      <div className={className}>
         {dataNavbar.map((item) => {
           console.log(`${setActiveTab}`);
           return (
